@@ -1,4 +1,4 @@
-# Realtime Sign Language Detection Using LSTM Model
+# Real-Time Sign Language Recognition Using Neural Networks
 
 **Author: Manav Arya**
 
