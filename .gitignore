@@ -23,6 +23,6 @@ __pycache__/
 .env
 
 # Ignore sign language data
-MP_Data/
+MP_Data
 
 # Do NOT ignore MP_Data (remove if present)
