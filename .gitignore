@@ -13,9 +13,6 @@ __pycache__/
 *.weights.h5
 *.ckpt
 
-# Ignore data folders
-MP_Data/
-
 # Ignore system files
 .DS_Store
 
@@ -24,3 +21,8 @@ MP_Data/
 
 # Ignore environment files
 .env
+
+# Ignore sign language data
+MP_Data/
+
+# Do NOT ignore MP_Data (remove if present)
