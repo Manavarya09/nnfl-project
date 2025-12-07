@@ -1,6 +1,6 @@
 # Real-Time Sign Language Recognition Using Neural Networks
 
-**Author: Manav Arya**
+**Author: Manav Arya and Kiritika Prakash**
 
 ---
 This project is solely owned and maintained by Manav Arya. For more projects, visit my GitHub: [nnfl-project](https://github.com/Manavarya09/nnfl-project)
