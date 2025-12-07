@@ -236,8 +236,13 @@ class ModelHandler:
         print("Accuracy:", accuracy_score(real, predictions))
 
     def save(self):
-        self.model.save(self.cfg.model_path)
-        self.model.save_weights(self.cfg.model_weights_path)
+            self.model.save(self.cfg.model_path)
+            # Keras requires weights filename to end with .weights.h5
+            weights_path = (
+                self.cfg.model_weights_path if self.cfg.model_weights_path.endswith('.weights.h5')
+                else self.cfg.model_weights_path.replace('.h5', '.weights.h5')
+            )
+            self.model.save_weights(weights_path)
 
     def load(self):
         self.model = tf.keras.models.load_model(self.cfg.model_path)
